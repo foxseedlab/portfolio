@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+    --font-sans: 'M PLUS 2 Variable', 'sans-serif';
+    --font-display: 'Gabarito Variable', 'sans-serif';
+}
+
+body {
+    @apply bg-gray-100;
+    background-image: url('/src/assets/background.svg');
+    @apply bg-cover bg-center bg-no-repeat mx-10;
+}
